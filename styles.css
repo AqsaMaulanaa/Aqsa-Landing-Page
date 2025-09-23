@@ -1,0 +1,117 @@
+footer {
+  background-color: #7790ff;
+  padding: 40px;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.bawahkiri {
+  text-align: left;
+}
+
+.bawahkiri p {
+  color: #ffffff;
+  font-size: 18px;
+  max-width: 500px;
+}
+
+.bawahkanan {
+  text-align: right;
+  display: flex;
+  flex-direction: column; /* biar link turun ke bawah */
+  gap: 10px;
+}
+
+.bawahkanan a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+body {
+  margin: 30px;
+  font-family: 'Poppins', sans-serif;
+  color: #f9f9f9;
+}
+
+nav {
+  background-color: #5271ff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 1cap;
+  margin-bottom: 20px;
+}
+
+nav h2 {
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+}
+
+P {
+  color: #5271ff;
+}
+
+.baris-awal {
+  display: flex;
+  align-items: stretch;
+  gap: 20px;
+}
+
+article {
+  padding: 20px;
+  border: 2px solid #5271ff;
+  text-align: left;
+  flex-wrap: wrap;
+  border-radius: 1cap;
+  margin-bottom: 20px;
+}
+
+.kolomkiri {
+  flex: 1 0.1px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.kolomkiri img {
+  width: 100%;
+  display: flex;
+  height: auto;
+  object-fit: cover;
+}
+
+.kolomkiri h2 {
+  color: #5271ff;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 19px;
+  margin-top: 17px;
+}
+
+.kolomkanan {
+  flex: 1;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  max-block-size: 100%;
+}
+
+.kolomkanan img {
+  width: 100%;
+  height: auto;
+  border-radius: 1cap;
+  object-fit: cover;
+  transition: 1s ease;
+}
+
+.kolomkanan a img:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 8px 20px rgb(50, 85, 240);
+}
