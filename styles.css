@@ -88,7 +88,7 @@ article {
   align-content: center;
   align-items: center;
   justify-content: center;
-  max-width: 460px;
+  max-width: 483px;
 }
 
 .kolomkiri img {
@@ -108,7 +108,7 @@ article {
 .kolomkanan {
   flex: 1;
   display: flex;
-  gap: 14px;
+  gap: 11px;
   flex-direction: column;
   max-block-size: 100%;
 }
