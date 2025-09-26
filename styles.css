@@ -37,14 +37,14 @@ footer {
 .bawahkanan a:hover {
   color: #5271ff;
   background-color: #ffffff;
-  text-decoration: ;
+  text-decoration: none;
   letter-spacing: 2px;
   padding: 5px;
 }
 
 body {
   margin: 30px;
-  font-family: "Poppins", sans-serif;
+  font-family: "poppins";
   color: #f9f9f9;
 }
 
@@ -73,7 +73,7 @@ p {
 }
 
 article {
-  padding: 20px;
+  padding: 30px;
   border: 2px solid #5271ff;
   text-align: left;
   flex-wrap: wrap;
@@ -84,7 +84,6 @@ article {
 .kolomkiri {
   flex: 1 0.1px;
   display: grid;
-  flex-direction: column;
   align-content: center;
   align-items: center;
   justify-content: center;
