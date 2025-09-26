@@ -2,7 +2,6 @@ footer {
   background-color: #7790ff;
   padding: 40px;
   border-radius: 10px;
-
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -44,7 +43,7 @@ footer {
 
 body {
   margin: 30px;
-  font-family: "poppins";
+  font-family: poppins;sss
   color: #f9f9f9;
 }
 
