@@ -43,7 +43,7 @@ footer {
 
 body {
   margin: 30px;
-  font-family: poppins;sss
+  font-family: poppins;
   color: #f9f9f9;
 }
 
@@ -72,6 +72,8 @@ p {
 }
 
 article {
+  display: flex;
+  justify-content: center;
   padding: 30px;
   border: 2px solid #5271ff;
   text-align: left;
@@ -82,15 +84,16 @@ article {
 
 .kolomkiri {
   flex: 1 0.1px;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   align-content: center;
   align-items: center;
   justify-content: center;
-  max-width: 483px;
+  max-width: 501px;
 }
 
 .kolomkiri img {
-  width: 100%;
+  width: 80%;
   display: flex;
   height: auto;
   object-fit: cover;
@@ -122,4 +125,38 @@ article {
   transform: scale(1.02);
   box-shadow: 0px 8px 20px rgb(50, 85, 240);
   
+}
+
+@media screen {
+  (max-width: 768px) {
+    .baris-awal {
+      flex-direction: column;
+    }
+
+    .kolomkiri,
+    .kolomkanan {
+      max-width: 100%;
+    }
+
+    .kolomkanan {
+      gap: 20px;
+    }
+
+    footer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 20px;
+    }
+
+    .bawahkiri,
+    .bawahkanan {
+      margin: 0;
+      text-align: center;
+    }
+
+    .bawahkanan {
+      align-items: center;
+    }
+  }
 }
