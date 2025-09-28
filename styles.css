@@ -126,38 +126,3 @@ article {
   box-shadow: 0px 8px 20px rgb(50, 85, 240);
   
 }
-
-@media screen {
-  (max-width: 768px) {
-    .baris-awal {
-      flex-direction: column;
-    }
-
-    .kolomkiri,
-    .kolomkanan {
-      max-width: 100%;
-    }
-
-    .kolomkanan {
-      gap: 20px;
-    }
-
-    footer {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      gap: 20px;
-    }
-
-    .bawahkiri,
-    .bawahkanan {
-      margin: 0;
-      text-align: center;
-      font-size: 18px;
-    }
-
-    .bawahkanan {
-      align-items: center;
-    }
-  }
-}

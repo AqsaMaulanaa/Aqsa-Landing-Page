@@ -13,7 +13,7 @@
 <style>
  body {
    margin: 20px;
-   font-family: "poppins";
+   font-family: "Poppins", sans-serif;
  }
  nav {
       background-color: #5271ff;
@@ -22,10 +22,17 @@
       display: flex;
       flex-direction: row;
       text-align: center;
+      margin-bottom: 20px;
    }
 
-   .Home {
-    padding-top: 25px;
+   .teksatas {
+    flex: 1;
+    text-align: center;
+   }
+   
+   .Home img {
+    padding-top: 20px;
+    width: 35px;
    }
 
  nav h2 { 
@@ -33,19 +40,49 @@
       color: #ffffff
    }
 
+  .verticalrow {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   align-content: center;
+   align-items: center;
+   justify-content: center;
+  }
+
+  .verticalrow img {
+   max-width: 1217px;
+   object-fit: cover;
+   border-radius: 10px;
+  }
+
+  .verticalrow img:hover {
+   transform: scale(1.02);
+   transition: transform 0.9s ease;
+  }
+
 </style>
 
 <body>
  <nav>
    <div class="Home">
      <a href="index.html">
-       <img src="" alt="Balik Ke Halaman Awal">
+       <img src="images/home.png" alt="Balik Ke Halaman Awal">
      </a>
    </div>
    
+   <div class="teksatas">
     <h2>PORTOFOLIO AQSA MAULANA</h2>
+   </div>
  </nav>
 
+ <div class="verticalrow">
+   <img src="images/porto1.png" alt="">
+   <img src="images/porto2.png" alt="">
+   <img src="images/porto3.png" alt="">
+   <img src="images/porto4.png" alt="">
+   <img src="images/porto5.png" alt="">
+   <img src="images/porto6.png" alt="">
+ </div>
 </body>
 
 </html>
