@@ -3,7 +3,7 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Aqsa`s Landing Pages</title>
+ <title>Aqsa's Landing Pages</title>
 
  <link rel="preconnect" href="https://fonts.googleapis.com">
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +12,7 @@
 
 <style>
  body {
-   margin: 20px;
+   margin: 30px;
    font-family: "Poppins", sans-serif;
  }
  nav {
@@ -37,28 +37,42 @@
 
  nav h2 { 
       font-size: 24px;
-      color: #ffffff
+      color: #ffffff;
    }
 
   .verticalrow {
    display: flex;
    flex-direction: column;
-   gap: 10px;
+   gap: 30px;
    align-content: center;
    align-items: center;
    justify-content: center;
   }
 
   .verticalrow img {
-   max-width: 1217px;
+   max-width: 100%;
    object-fit: cover;
    border-radius: 10px;
   }
 
   .verticalrow img:hover {
    transform: scale(1.02);
-   transition: transform 0.9s ease;
+   transition: transform 1.4s ease;
+   box-shadow: #5271ff 0px 8px 8px;
+   animation-iteration-count: 1;
+   animation: slidein 0.9s ease;
   }
+
+  @keyframes .verticalrow img {
+   from { 
+    opacity: 0;
+    transform: translateX(-40%);
+   }
+   to {
+    transform: translateX(0);
+    opacity: 1; } 
+  }
+   
 
 </style>
 
@@ -84,5 +98,4 @@
    <img src="images/porto6.png" alt="">
  </div>
 </body>
-
 </html>
