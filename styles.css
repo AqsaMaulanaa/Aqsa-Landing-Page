@@ -115,6 +115,28 @@ article {
   max-height: 100%;
 }
 
+.animasi-teks {
+  transition: 1s ease;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.animasi-teks.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.animate-samping {
+  transition: all 0.7s ease-in-out;
+  opacity: 0;
+  transform: translateX(-20px);
+}
+
+.animate-samping.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
 .kolomkanan img {
   width: 100%;
   border-radius: 10px;
