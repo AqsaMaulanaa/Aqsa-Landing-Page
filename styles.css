@@ -40,6 +40,7 @@ footer {
   text-decoration: underline;
   letter-spacing: 2px;
   padding: 5px;
+  cursor: grab;
 }
 
 body {
@@ -119,6 +120,7 @@ article {
   transition: 1s ease;
   opacity: 0;
   transform: translateY(20px);
+  animation-iteration-count: 1;
 }
 
 .animasi-teks.active {
@@ -130,6 +132,7 @@ article {
   transition: all 0.7s ease-in-out;
   opacity: 0;
   transform: translateX(-20px);
+  animation-iteration-count: 1;
 }
 
 .animate-samping.active {

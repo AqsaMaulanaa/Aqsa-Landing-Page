@@ -4,77 +4,12 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Aqsa's Landing Pages</title>
+ <link rel="stylesheet" href="laman.css">
 
  <link rel="preconnect" href="https://fonts.googleapis.com">
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
-
-<style>
- body {
-   margin: 30px;
-   font-family: "Poppins", sans-serif;
- }
- nav {
-      background-color: #5271ff;
-      padding: 10px;
-      border-radius: 10px;
-      display: flex;
-      flex-direction: row;
-      text-align: center;
-      margin-bottom: 20px;
-   }
-
-   .teksatas {
-    flex: 1;
-    text-align: center;
-   }
-   
-   .Home img {
-    padding-top: 20px;
-    width: 35px;
-   }
-
- nav h2 { 
-      font-size: 24px;
-      color: #ffffff;
-   }
-
-  .verticalrow {
-   display: flex;
-   flex-direction: column;
-   gap: 30px;
-   align-content: center;
-   align-items: center;
-   justify-content: center;
-  }
-
-  .verticalrow img {
-   max-width: 100%;
-   object-fit: cover;
-   border-radius: 10px;
-  }
-
-  .verticalrow img:hover {
-   transform: scale(1.02);
-   transition: transform 1.4s ease;
-   box-shadow: #5271ff 0px 8px 8px;
-   animation-iteration-count: 1;
-   animation: slidein 0.9s ease;
-  }
-
-  @keyframes .verticalrow img {
-   from { 
-    opacity: 0;
-    transform: translateX(-40%);
-   }
-   to {
-    transform: translateX(0);
-    opacity: 1; } 
-  }
-   
-
-</style>
 
 <body>
  <nav>
@@ -89,7 +24,7 @@
    </div>
  </nav>
 
- <div class="verticalrow">
+ <div class="verticalrow animate-samping">
    <img src="images/porto1.png" alt="">
    <img src="images/porto2.png" alt="">
    <img src="images/porto3.png" alt="">
@@ -97,5 +32,7 @@
    <img src="images/porto5.png" alt="">
    <img src="images/porto6.png" alt="">
  </div>
+
+ <script src="javascript.js"></script>
 </body>
 </html>
