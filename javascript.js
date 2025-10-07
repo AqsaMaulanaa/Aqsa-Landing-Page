@@ -11,7 +11,7 @@
       });
     }
 
-    window.addEventListener('scroll', checkScroll);
-    window.addEventListener('load', checkScroll);
+window.addEventListener('scroll', checkScroll);
+window.addEventListener('load', checkScroll);
 
-    
+

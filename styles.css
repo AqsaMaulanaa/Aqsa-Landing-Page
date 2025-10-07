@@ -40,7 +40,7 @@ footer {
   text-decoration: underline;
   letter-spacing: 2px;
   padding: 5px;
-  cursor: grab;
+  cursor: gr;
 }
 
 body {
@@ -151,6 +151,7 @@ article {
   transform: scale(1.02);
   box-shadow: 0px 8px 20px #5271ff;
 }
+
 
 @media (max-width: 768px) {
   nav h2 {
